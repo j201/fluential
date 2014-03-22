@@ -33,6 +33,10 @@ fMath(5)
 
 The most composable functions are those that just map arguments to return values. Those are the kinds of APIs that library developers should be offering, because they're simple, consistent, and give us users the most freedom to manipulate the library functions. And, if we want a different API, tools like this let us use it the way we want. So why should all sorts of library developers each make their own new fluent APIs when we can write one that will work anywhere in less than 50 lines?
 
+##Compatibility
+
+Needs an ES5 environment.
+
 ##Licence
 
 Licensed under the MIT licence.
